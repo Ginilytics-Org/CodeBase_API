@@ -1,0 +1,11 @@
+﻿global using MapsterMapper;
+global using Microsoft.Extensions.Logging;
+global using Ginilytics.Api.Controllers.Base;
+global using Ginilytics.Api.Data.ViewModels;
+global using Ginilytics.Api.Startup.ApplicationBuilders.Contracts;
+global using Ginilytics.Service.Services.Contract;
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Net;
+global using System.Threading.Tasks;
