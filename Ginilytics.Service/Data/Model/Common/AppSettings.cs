@@ -12,6 +12,6 @@ namespace Ginilytics.Service.Data.Model.Common
         public int HashIterationCount { get; set; }
         public int ForgotPasswordTokenValidationTime { get; set; }
         public string Issuer { get; set; }
-        public string Audience { get; set; }
+        public string Audience { get; set; } 
     }
 }

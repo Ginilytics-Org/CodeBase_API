@@ -17,7 +17,7 @@ namespace Ginilytics.UnitTest.Api.UnitTests
         private readonly HealthCheckController _sut;
         private readonly Mock<ILogger<HealthCheckController>> _logger;
 
-        public HealthCheckControllerUnitTests()
+        public HealthCheckControllerUnitTests() 
         {
             _healthCheckService = new Mock<IHealthCheckService>();
             _logger = new Mock<ILogger<HealthCheckController>>();

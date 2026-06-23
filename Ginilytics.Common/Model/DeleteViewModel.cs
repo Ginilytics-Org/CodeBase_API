@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Ginilytics.Common.Model
 {
-    public class DeleteViewModel
+    public class DeleteViewModel 
     {
         [Required]
         public int id { get; set; }

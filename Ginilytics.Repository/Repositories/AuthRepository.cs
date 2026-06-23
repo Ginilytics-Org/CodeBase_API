@@ -12,7 +12,7 @@ namespace Ginilytics.Repository.Repositories
         private readonly IDbProvider _dbProvider;
         public AuthRepository(IDbProvider dbProvider)
         {
-            _dbProvider = dbProvider;
+            _dbProvider = dbProvider; 
         }
         public async Task<bool> UpdateStaffTokenAsync(refreshStaffToken userToken)
         {

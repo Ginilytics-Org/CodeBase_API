@@ -13,7 +13,7 @@ namespace Ginilytics.Model.DataModels
         public string firstName { get; set; }
         public string email { get; set; }
         public string lastName { get; set; }
-        public List<Role> userRoles { get; set; }
+        public List<Role> userRoles { get; set; } 
         public string refreshToken { get; set; }
         public DateTime refreshTokenExpiryTime { get; set; }
     }

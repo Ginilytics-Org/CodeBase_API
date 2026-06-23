@@ -29,7 +29,7 @@ The project is organized into the following folders:
 
 ### Prerequisites
 - .NET SDK
-- SQL Server
+- SQL Server 
 - Visual Studio or any preferred IDE
 
 ### JWT Token Usage
